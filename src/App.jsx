@@ -454,22 +454,22 @@ export default function Portfolio() {
               fontSize: "2.2rem", color: "#f1f5f9", marginBottom: "1.5rem",
               lineHeight: 1.2,
             }}>
-              Намайн тухай
+              Миний тухай
             </h2>
             <p style={{ color: "#94a3b8", lineHeight: 1.8, marginBottom: "1rem", fontSize: "0.95rem" }}>
-              Би Монголын Үндэсний Их Сургуулийг 2025 онд Software Engineering-аар төгссөн. Web болон Mobile хөгжүүлэлтэнд хүсэл тэмүүлэлтэй бөгөөд цэвэр, хэрэглэгчдэд тохиромжтой бүтээгдэхүүн хийхийг зорьдог.
+              Би Монголын Улсын Их Сургуулийг 2025 онд Software Engineering-аар төгссөн. Web болон Mobile хөгжүүлэлтэнд хүсэл тэмүүлэлтэй бөгөөд, хэрэглэгчдэд тохиромжтой бүтээгдэхүүн хийхийг зорьж цаашид туршлага хуримтлуулан өсөн дэвжих туйлын сонирхолтой.
             </p>
             <p style={{ color: "#64748b", lineHeight: 1.8, fontSize: "0.9rem" }}>
-              Одоо JavaScript, React-г гүнзгийрүүлэн судалж, LeetCode-р алгоритмын дасгал хийж байна. Ирэх зорилго — бодит төслүүд хийж, хамтарч ажиллах.
+              Одоо JavaScript, React-г гүнзгийрүүлэн судалж, LeetCode-р алгоритмын дасгал хийж байна. Ирээдүйн зорилго — бодит төслүүд хийж, хамтарч ажиллах.
             </p>
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
             {[
-              { label: "Их сургууль", value: "МУИС — МХТС", icon: "🎓" },
+              { label: "Их сургууль", value: "МУИС — МТС", icon: "🎓" },
               { label: "Мэргэжил", value: "Software Engineering", icon: "💻" },
               { label: "Байршил", value: "Улаанбаатар, Монгол", icon: "📍" },
-              { label: "Хэл", value: "Монгол, Англи", icon: "🌐" },
+              { label: "Хэл", value: "Англи - Upper Intermediate", icon: "🌐" },
             ].map(item => (
               <div key={item.label} style={{
                 background: "#0f172a", border: "1px solid #1e293b",
@@ -656,7 +656,7 @@ export default function Portfolio() {
         color: "#1e293b", fontFamily: "'Space Mono', monospace", fontSize: "0.75rem",
         borderTop: "1px solid #0f172a",
       }}>
-        © 2025 Батбаяр · Built with React
+        © 2026 Батбаяр · Built with React
       </footer>
     </>
   );
