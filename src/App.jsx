@@ -387,7 +387,7 @@ export default function Portfolio() {
             color: "#64748b", maxWidth: "480px", margin: "0 auto 2.5rem",
             lineHeight: 1.7, fontSize: "0.95rem",
           }}>
-            МУИС-ийн 2025 оны SE төгсөгч. Web, Mobile, Backend-д хүсэл тэмүүлэлтэй хөгжүүлэгч.
+            МУИС-ийн 2025 оны Software Engineering төгсөгч. Web, Mobile, Frontend хөгжүүлэлтэнд сонирхолтой, хэрэглэгчдэд ээлтэй дизайн хийхийг эрхэмлэдэг. Одоогоор JavaScript, React-г гүнзгийрүүлэн судалж, бодит төслүүд дээр ажиллахыг хүсэж байна.
           </p>
 
           <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
